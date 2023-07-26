@@ -1,0 +1,33 @@
+body {
+    max-width: 1000px;
+    margin: 0 auto 0 auto;
+    text-align: center;
+}
+
+.article {
+    text-align: left;
+    border: 2px solid #337AB7;
+    font-size: 16px;
+    font-style: italic;
+    margin: 16px 31px 31px 16px;
+    padding: 16px 24px;
+    position: relative;
+    box-shadow: 15px 15px 0 0 #337AB7;
+}
+
+.article cite {
+    color: #337AB7;
+    font-size: 15px;
+    padding-top: 10px;
+    display: block;
+    text-align: right;
+}
+
+h1 {
+    font-size: 70px;
+    font-weight: 600;
+    background-image: linear-gradient(to left, #372ba8, #337AB7);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
